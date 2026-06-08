@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.container{
+    background-color: White;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+    padding-top: 20px;
+    margin-bottom: -50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: -49px;
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    margin-left: 20px;
+}
+.nav-links.active{
+    display: flex;
+}
+.request-invite{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid hsl(136, 64%, 51%);
+    color: hsl(136, 64%, 51%);
+    margin-top: -88px;
+}
+.request-invite a{
+    margin: 0;
+    padding: 0;
+}
+.request-invite:hover{
+    background-color: hsl(136, 64%, 41%);
+    border-color: hsl(136, 64%, 41%);
+    color: hsl(233, 8%, 62%);;
+}
+.hero{
+    background-color: hsl(0, 0%, 98%);
+    margin: 0 -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.hero-image{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 500px;
+}
+.hero-text{
+    max-width: 500px;
+    padding: 50px;
+    position: relative;
+    line-height: 1.5;
+}
+.hero-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 20px;
+}
+.hero-text button{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    padding: 10px 20px;
+    border: 2px solid hsl(136, 64%, 51%);
+    border-radius: 20px;
+}
+.hero-text button:hover{
+    background-color: hsl(136, 64%, 41%);
+    border-color: hsl(136, 64%, 41%);
+    color: white;
+}
+.features{
+    background-color: hsl(220, 16%, 96%);
+    margin: 0 -50px;
+    padding: 60px 20px;
+}
+.features2 h2{
+ margin-bottom: 20px;
+ font-weight: 700;
+ font-size: 2rem;
+}
+.features2 p{
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 20px;
+    max-width: 500px;
+   position: relative;
+   font-weight: 500;
+   line-height: 1.5;
+}
+.feature-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+}
+.pic img{
+    max-width: 100%;
+    margin-bottom: 20px;
+    height:auto;
+}
+.feature-text h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.feature-text p{
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5;
+}
+.features2{
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.articles{
+    background-color:hsl(0, 0%, 98%);
+    padding: 50px;
+    margin: 0 -50px;
+}
+.articles h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: -80px;
+}
+.article-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.article2 img{
+    width: 100%;
+    height: 200px;
+  display: block;
+  object-fit: cover;
+   margin: 0;
+}
+.article h3{
+    margin-bottom: 10px;
+    color: hsl(233, 8%, 62%);
+    font-size: 18px;
+  margin-top: 20px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+.article h4{
+    padding: 20px;
+    color: lightskyblue;
+    margin-top: -10px;
+}
+.article p{
+    padding: 20px;
+    color: hsl(233, 8%, 62%);
+    margin-top: -10px;
+}
+.art{
+    background-color: white;
+    padding: 0px;
+    border-radius: 20px;
+    
+}
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    margin: 0 -50px;
+    margin-bottom: -50px;
+    padding: 3rem 2rem;
+    max-height: 500px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    line-height: 1.5;
+    transition: 0.3s;
+}
+.invite{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   gap: 1.5rem;
+   padding-right: -100px;
+}
+.invite button{
+    padding: 0.9rem 2rem;
+    border-radius: 30px;
+    background: linear-gradient(
+     to right,
+     hsl(136,65%,51%)
+     hsl(192, 70%, 51%)
+    );
+   cursor: pointer;
+    color: hsl(0, 0%, 98%);
+    font-weight: 700;
+    border: none;
+   
+}
+.invite button:hover{
+    background-color: hsl(136, 64%, 41%);
+    color: white;
+}
+.invite p{
+    color: hsl(0, 0%, 98%);
+    font-size: 0.9rem;
+}
+.logo{
+    margin-bottom: 5rem;
+   padding-left: 30px;
+}
+.socials{
+   margin-top: 6rem;
+   position: absolute;
+   padding-left: 30px;
+   gap: 15px;
+   display: flex;
+}
+.hamburger{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+.contact-section{
+    padding: 60px 0;
+}
+.contact-section h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700px;
+}
+.contact-text{
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: 1.8;
+    max-width: 600px;
+   color: hsl(233, 8%, 62%);
+}
+.input-row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.input-row input{
+    flex: 1;
+    padding: 12px;
+    border: 1.5px solid hsl(136, 64%, 51%);
+    border-radius: 10px;
+}
+textarea{
+    width: 100%;
+    min-height: 180px;
+    padding: 15px;
+    resize: vertical;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    border: 1.5px solid hsl(136, 64%, 51%);
+    border-radius: 10px;
+}
+.button-container{
+    margin-top: 10px;
+}
+.button-container button{
+    padding: 12px 30px;
+    border: 2px solid hsl(136, 64%, 51%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button-container button:hover{
+    background-color: hsl(136, 64%, 51%);
+}
+#successMessage{
+    color: hsl(136, 64%, 51%);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo{
+    flex: 1;
+}
+.logo,
+.logo img{
+    position: static !important;
+    transform: static;
+}
+.logo img{
+    width: 140px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.nav-links{
+    display: none;
+}
+.nav-links.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -65px;
+    margin-right: 50px;
+    right: 20px;
+
+}
+.request-invite{
+    display: none;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    flex-direction: column;
+   margin: 0 -50px;
+    padding: 30px 20px;
+  
+}
+.hero-image img{
+   width: 100%;
+   max-width: 500px;
+   
+}
+.hero-text{
+   position: static;
+   top: auto;
+   padding: 20px 0;
+   text-align: center;
+   order: 2;
+}
+.hero-text h1{
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.hero-text button{
+    width: 200px;
+    height: 50px;
+}
+.hero-image{
+    width: 100%;
+   order: 1;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.hero-image,
+.hero-text{
+    position: static !important;
+}
+.hero-image img{
+    width: 90% !important;
+    max-width: 380px;
+}
+/*features*/
+.features{
+    text-align: center;
+}
+.features2{
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-list{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.feature-text{
+    text-align: center;
+    max-width: 350px;
+    margin-top: 20px;
+}
+.feature-text p{
+    text-align: center;
+}
+.features2{
+    text-align: center;
+}
+.features2 p{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.article{
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.article-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.art{
+    width: 100%;
+    max-width: 350px;
+}
+.article2 img{
+    width: 100%;
+    display: block;
+}
+.article{
+    text-align: center;
+}
+.article h3,
+.article h4,
+.article p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+button{
+    width: 100%;
+    max-width: 250px;
+}
+
+    .input-row{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .input-row input,
+    #message{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .textarea{
+        width: 100%;
+    }
+    .button-container{
+        text-align: center;
+    }
+    .button{
+        width: 100%;
+        max-width: 300px;
+    }
+    .contact-section{
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+    .contact-text{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .contactForm{
+        width: 100%;
+    }
+
+
+
+    /* Footer */
+.footer{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    padding: 50px 20px;
+}
+.footer-logo{
+    margin-bottom: 40px;
+}
+.socials{
+    justify-content: center !important;
+gap: 20px;
+width: 100%;
+align-items: center;
+margin: 20px 0 35px;
+display: flex !important;
+margin-top: 30px;
+}
+.footer-links{
+    display: grid !important;
+   grid-template-columns: 1fr;
+   text-align: center;
+   margin-bottom: 35px;
+    gap: 18px;
+    margin-top: 5px;
+}
+.invite{
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  margin: 10px auto;
+}
+.invite button{
+    width: 280px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+}
+.footer p{
+    text-align: center !important;
+    margin: -10px;
+}
+}
